@@ -1,0 +1,40 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  PGADMIN_COMPOSE: pgadmin/pgadmin-compose.yaml
+  SUIPABASE_COMPOSE: supabase-project/docker-compose.yml
+  SUPABASE_ENV: supabase-project/.env
+
+tasks:
+  pull_supa:
+    cmds":
+    - docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUIPABASE_COMPOSE}} pull
+  up_supa:
+    cmds:
+    - docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUIPABASE_COMPOSE}} up -d
+  down_supa:
+    cmds:
+    - docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUIPABASE_COMPOSE}} down
+  logs_supa:
+    cmds:
+    - docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUIPABASE_COMPOSE}} logs code
+  ps:
+    cmds:
+    - docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUIPABASE_COMPOSE}} ps
+  pull_admin:
+    cmds:
+    - docker compose -f {{.PGADMIN_COMPOSE}} pull
+  up_admin:
+    cmds:
+    - docker compose -f {{.PGADMIN_COMPOSE}} up -d pgadmin
+  down_admin:
+    cmds:
+    - docker compose -f {{.PGADMIN_COMPOSE}} down pgadmin
+  logs_admin:
+    cmds:
+    - docker compose -f {{.PGADMIN_COMPOSE}} logs pgadmin
+  ps_admin:
+    cmds:
+    - docker compose -f {{.PGADMIN_COMPOSE}} ps pgadmin

@@ -5,7 +5,7 @@
 #   Destroy:            docker compose -f docker-compose.yml -f ./dev/docker-compose.dev.yml down -v --remove-orphans
 #   Reset everything:  ./reset.sh
 
-name: supabase
+name: daoinfra
 
 services:
 
@@ -27,6 +27,8 @@ services:
     depends_on:
       analytics:
         condition: service_healthy
+    ports:
+      - "3000:3000"
     environment:
       # Binds nestjs listener to both IPv4 and IPv6 network interfaces
       HOSTNAME: "::"
