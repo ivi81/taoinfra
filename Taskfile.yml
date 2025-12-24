@@ -4,10 +4,10 @@ version: '3'
 
 vars:
   PGADMIN_COMPOSE: pgadmin/pgadmin-compose.yaml
-  SUIPABASE_COMPOSE: supabase-project/docker-compose.yml
+  SUPABASE_COMPOSE: supabase-project/docker-compose.yml
   AUTH_COMPOSE: supabase-project/auth-compose-providers.yml
   SUPABASE_ENV: supabase-project/.env
-  COMPOSE_COMMAND: docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUIPABASE_COMPOSE}} -f {{.AUTH_COMPOSE}} -f {{.PGADMIN_COMPOSE}} 
+  COMPOSE_COMMAND: docker compose --env-file {{.SUPABASE_ENV}} -f {{.SUPABASE_COMPOSE}} -f {{.AUTH_COMPOSE}} -f {{.PGADMIN_COMPOSE}} 
 
 tasks:
   pull:
