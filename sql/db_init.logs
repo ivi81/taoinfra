@@ -1,0 +1,430 @@
+supabase-db  | The files belonging to this database system will be owned by user "postgres".
+supabase-db  | This user must also own the server process.
+supabase-db  | 
+supabase-db  | The database cluster will be initialized with locale "en_US.UTF-8".
+supabase-db  | The default database encoding has accordingly been set to "UTF8".
+supabase-db  | The default text search configuration will be set to "english".
+supabase-db  | 
+supabase-db  | Data page checksums are disabled.
+supabase-db  | 
+supabase-db  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+supabase-db  | creating subdirectories ... ok
+supabase-db  | selecting dynamic shared memory implementation ... posix
+supabase-db  | selecting default max_connections ... 100
+supabase-db  | selecting default shared_buffers ... 128MB
+supabase-db  | selecting default time zone ... Etc/UTC
+supabase-db  | creating configuration files ... ok
+supabase-db  | running bootstrap script ... ok
+supabase-db  | performing post-bootstrap initialization ... ok
+supabase-db  | initdb: warning: enabling "trust" authentication for local connections
+supabase-db  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+supabase-db  | syncing data to disk ... ok
+supabase-db  | 
+supabase-db  | 
+supabase-db  | Success. You can now start the database server using:
+supabase-db  | 
+supabase-db  |     /usr/bin/pg_ctl -D /var/lib/postgresql/data -l logfile start
+supabase-db  | 
+supabase-db  | waiting for server to start.... done
+supabase-db  | server started
+supabase-db  | 
+supabase-db  | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/init-scripts
+supabase-db  | 
+supabase-db  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/migrate.sh
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/00-schema.sql
+supabase-db  | CREATE ROLE
+supabase-db  | REVOKE
+supabase-db  | CREATE SCHEMA
+supabase-db  | CREATE FUNCTION
+supabase-db  | REVOKE
+supabase-db  | GRANT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/00000000000000-initial-schema.sql
+supabase-db  | CREATE PUBLICATION
+supabase-db  | ALTER ROLE
+supabase-db  | CREATE ROLE
+supabase-db  | CREATE ROLE
+supabase-db  | GRANT ROLE
+supabase-db  | CREATE SCHEMA
+supabase-db  | CREATE EXTENSION
+supabase-db  | CREATE EXTENSION
+supabase-db  | DO
+supabase-db  | CREATE ROLE
+supabase-db  | CREATE ROLE
+supabase-db  | CREATE ROLE
+supabase-db  | CREATE ROLE
+supabase-db  | GRANT ROLE
+supabase-db  | GRANT ROLE
+supabase-db  | GRANT ROLE
+supabase-db  | GRANT ROLE
+supabase-db  | GRANT
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | GRANT
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/00000000000001-auth-schema.sql
+supabase-db  | CREATE SCHEMA
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE INDEX
+supabase-db  | CREATE INDEX
+supabase-db  | COMMENT
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE INDEX
+supabase-db  | CREATE INDEX
+supabase-db  | CREATE INDEX
+supabase-db  | COMMENT
+supabase-db  | CREATE TABLE
+supabase-db  | COMMENT
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE INDEX
+supabase-db  | COMMENT
+supabase-db  | CREATE TABLE
+supabase-db  | COMMENT
+supabase-db  | INSERT 0 7
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | GRANT
+supabase-db  | CREATE ROLE
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/00000000000002-storage-schema.sql
+supabase-db  | CREATE SCHEMA
+supabase-db  | GRANT
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE INDEX
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE INDEX
+supabase-db  | CREATE INDEX
+supabase-db  | ALTER TABLE
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE ROLE
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER FUNCTION
+supabase-db  | ALTER FUNCTION
+supabase-db  | ALTER FUNCTION
+supabase-db  | ALTER FUNCTION
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/00000000000003-post-setup.sql
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | COMMENT
+supabase-db  | CREATE FUNCTION
+supabase-db  | COMMENT
+supabase-db  | DO
+supabase-db  | CREATE ROLE
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/98-webhooks.sql
+supabase-db  | BEGIN
+supabase-db  | CREATE EXTENSION
+supabase-db  | CREATE SCHEMA
+supabase-db  | GRANT
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | CREATE TABLE
+supabase-db  | INSERT 0 1
+supabase-db  | CREATE TABLE
+supabase-db  | CREATE INDEX
+supabase-db  | CREATE INDEX
+supabase-db  | COMMENT
+supabase-db  | CREATE FUNCTION
+supabase-db  | DO
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER FUNCTION
+supabase-db  | GRANT ROLE
+supabase-db  | DO
+supabase-db  | DO
+supabase-db  | CREATE FUNCTION
+supabase-db  | COMMENT
+supabase-db  | DO
+supabase-db  | INSERT 0 1
+supabase-db  | ALTER FUNCTION
+supabase-db  | ALTER FUNCTION
+supabase-db  | REVOKE
+supabase-db  | GRANT
+supabase-db  | COMMIT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/99-jwt.sql
+supabase-db  | ALTER DATABASE
+supabase-db  | ALTER DATABASE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/init-scripts/99-roles.sql
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/00-extension.sql
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/00-extension.sql:1: NOTICE:  schema "extensions" already exists, skipping
+supabase-db  | CREATE SCHEMA
+supabase-db  | CREATE EXTENSION
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/10000000000000_demote-postgres.sql
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20211115181400_update-auth-permissions.sql
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | ALTER TABLE
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20211118015519_create-realtime-schema.sql
+supabase-db  | CREATE SCHEMA
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20211122051245_update-realtime-permissions.sql
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20211124212715_update-auth-owner.sql
+supabase-db  | DO
+supabase-db  | DO
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20211130151719_update-realtime-permissions.sql
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220118070449_enable-safeupdate-postgrest.sql
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220126121436_finer-postgrest-triggers.sql
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220126121436_finer-postgrest-triggers.sql:3: NOTICE:  event trigger "api_restart" does not exist, skipping
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | DROP FUNCTION
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220126121436_finer-postgrest-triggers.sql:4: NOTICE:  function extensions.notify_api_restart() does not exist, skipping
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220126121436_finer-postgrest-triggers.sql:59: NOTICE:  event trigger "pgrst_ddl_watch" does not exist, skipping
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220126121436_finer-postgrest-triggers.sql:64: NOTICE:  event trigger "pgrst_drop_watch" does not exist, skipping
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220224211803_fix-postgrest-supautils.sql
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220317095840_pg_graphql.sql
+supabase-db  | CREATE SCHEMA
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220317095840_pg_graphql.sql:5: NOTICE:  function graphql_public.graphql(text,text,jsonb) does not exist, skipping
+supabase-db  | DROP FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | GRANT
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220317095840_pg_graphql.sql:90: NOTICE:  event trigger "issue_pg_graphql_access" does not exist, skipping
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | COMMENT
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220317095840_pg_graphql.sql:143: NOTICE:  event trigger "issue_graphql_placeholder" does not exist, skipping
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | COMMENT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220321174452_fix-postgrest-alter-type-event-trigger.sql
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220321174452_fix-postgrest-alter-type-event-trigger.sql:3: NOTICE:  event trigger "api_restart" does not exist, skipping
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220321174452_fix-postgrest-alter-type-event-trigger.sql:4: NOTICE:  function extensions.notify_api_restart() does not exist, skipping
+supabase-db  | DROP FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220322085208_gotrue-session-limit.sql
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220404205710_pg_graphql-on-by-default.sql
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | CREATE FUNCTION
+supabase-db  | psql:/docker-entrypoint-initdb.d/migrations/20220404205710_pg_graphql-on-by-default.sql:142: NOTICE:  extension "pg_graphql" does not exist, skipping
+supabase-db  | DROP EXTENSION
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220609081115_grant-supabase-auth-admin-and-supabase-storage-admin-to-postgres.sql
+supabase-db  | GRANT ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220613123923_pg_graphql-pg-dump-perms.sql
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EXTENSION
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20220713082019_pg_cron-pg_net-temp-perms-fix.sql
+supabase-db  | DO
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20221028101028_set_authenticator_timeout.sql
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20221103090837_revoke_admin.sql
+supabase-db  | REVOKE ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20221207154255_create_pgsodium_and_vault.sql
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20230201083204_grant_auth_roles_to_postgres.sql
+supabase-db  | GRANT ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20230224042246_grant_extensions_perms_for_postgres.sql
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | GRANT
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | ALTER DEFAULT PRIVILEGES
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20230306081037_grant_pg_monitor_to_postgres.sql
+supabase-db  | GRANT ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20230327032006_grant_auth_roles_to_supabase_storage_admin.sql
+supabase-db  | GRANT ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20230529180330_alter_api_roles_for_inherit.sql
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20231013070755_grant_authenticator_to_supabase_storage_admin.sql
+supabase-db  | GRANT ROLE
+supabase-db  | REVOKE ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20231017062225_grant_pg_graphql_permissions_for_custom_roles.sql
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EXTENSION
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20231020085357_revoke_writes_on_cron_job_from_postgres.sql
+supabase-db  | DO
+supabase-db  | CREATE FUNCTION
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | ALTER FUNCTION
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20231130133139_set_lock_timeout_to_authenticator_role.sql
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20240124080435_alter_lo_export_lo_import_owner.sql
+supabase-db  | ALTER FUNCTION
+supabase-db  | ALTER FUNCTION
+supabase-db  | ALTER FUNCTION
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20240606060239_grant_predefined_roles_to_postgres.sql
+supabase-db  | GRANT ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20241031003909_create_orioledb.sql
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20241215003910_backfill_pgmq_metadata.sql
+supabase-db  | DO
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250205060043_disable_log_statement_on_internal_roles.sql
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | ALTER ROLE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250205144616_move_orioledb_to_extensions_schema.sql
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250218031949_pgsodium_mask_role.sql
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250220051611_pg_net_perms_fix.sql
+supabase-db  | CREATE FUNCTION
+supabase-db  | DO
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250312095419_pgbouncer_ownership.sql
+supabase-db  | ALTER FUNCTION
+supabase-db  | GRANT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250402065937_alter_internal_event_triggers_owner_to_supabase_admin.sql
+supabase-db  | DROP EVENT TRIGGER
+supabase-db  | ALTER FUNCTION
+supabase-db  | CREATE EVENT TRIGGER
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250417190610_update_pgbouncer_get_auth.sql
+supabase-db  | CREATE FUNCTION
+supabase-db  | GRANT
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/20250421084701_revoke_admin_roles_from_postgres.sql
+supabase-db  | REVOKE ROLE
+supabase-db  | REVOKE
+supabase-db  | REVOKE
+supabase-db  | REVOKE ROLE
+supabase-db  | REVOKE
+supabase-db  | REVOKE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/97-_supabase.sql
+supabase-db  | CREATE DATABASE
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/99-logs.sql
+supabase-db  | You are now connected to database "_supabase" as user "supabase_admin".
+supabase-db  | CREATE SCHEMA
+supabase-db  | ALTER SCHEMA
+supabase-db  | You are now connected to database "postgres" as user "supabase_admin".
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/99-pooler.sql
+supabase-db  | You are now connected to database "_supabase" as user "supabase_admin".
+supabase-db  | CREATE SCHEMA
+supabase-db  | ALTER SCHEMA
+supabase-db  | You are now connected to database "postgres" as user "supabase_admin".
+supabase-db  | /docker-entrypoint-initdb.d/migrate.sh: running /docker-entrypoint-initdb.d/migrations/99-realtime.sql
+supabase-db  | CREATE SCHEMA
+supabase-db  | ALTER SCHEMA
+supabase-db  |  pg_stat_statements_reset 
+supabase-db  | --------------------------
+supabase-db  |  
+supabase-db  | (1 row)
+supabase-db  | 
+supabase-db  |  pg_stat_reset 
+supabase-db  | ---------------
+supabase-db  |  
+supabase-db  | (1 row)
+supabase-db  | 
+supabase-db  | 
+supabase-db  | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/migrations
+supabase-db  | 
+supabase-db  | waiting for server to shut down.... 2025-12-12 17:36:48.164 UTC [63] LOG:  pg_cron scheduler shutting down
+supabase-db  |  2025-12-12 17:36:48.164 UTC [61] FATAL:  terminating background worker "TimescaleDB Background Worker Launcher" due to administrator command
+supabase-db  | .. done
+supabase-db  | server stopped
+supabase-db  | 
+supabase-db  | PostgreSQL init process complete; ready for start up.
+supabase-db  | 

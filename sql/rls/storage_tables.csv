@@ -1,0 +1,10 @@
+"table_catalog","table_schema","table_name","table_type","self_referencing_column_name","reference_generation","user_defined_type_catalog","user_defined_type_schema","user_defined_type_name","is_insertable_into","is_typed","commit_action"
+"postgres","storage","migrations","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","buckets","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","s3_multipart_uploads","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","s3_multipart_uploads_parts","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","objects","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","prefixes","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","buckets_vectors","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","vector_indexes","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","storage","buckets_analytics","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL

@@ -1,0 +1,26 @@
+"table_catalog","table_schema","table_name","table_type","self_referencing_column_name","reference_generation","user_defined_type_catalog","user_defined_type_schema","user_defined_type_name","is_insertable_into","is_typed","commit_action"
+"postgres","public","project_create_requests","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","branches","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","project_invitations","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","projects","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","project_settings","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","legacy_subscriptions","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","products","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","rate_limits","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","subscriptions","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","user_projects","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","usage_records","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","user_settings","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","users","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","user_canvases","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","project_custom_domains","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","prices","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","canvas","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","frames","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","deployments","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","conversations","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","messages","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","custom_domains","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","custom_domain_verification","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","preview_domains","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","public","feedbacks","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL

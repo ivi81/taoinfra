@@ -1,0 +1,21 @@
+"table_catalog","table_schema","table_name","table_type","self_referencing_column_name","reference_generation","user_defined_type_catalog","user_defined_type_schema","user_defined_type_name","is_insertable_into","is_typed","commit_action"
+"postgres","auth","sso_domains","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","saml_providers","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","sso_providers","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","oauth_consents","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","instances","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","schema_migrations","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","mfa_factors","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","refresh_tokens","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","users","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","audit_log_entries","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","saml_relay_states","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","flow_state","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","oauth_clients","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","identities","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","sessions","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","one_time_tokens","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","oauth_authorizations","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","mfa_challenges","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","mfa_amr_claims","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
+"postgres","auth","oauth_client_states","BASE TABLE",NULL,NULL,NULL,NULL,NULL,"YES","NO",NULL
